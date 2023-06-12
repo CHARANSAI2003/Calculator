@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #ecf0f3;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f3;
+}
+
+.calc {
+    box-shadow: 13px 13px 13px #fff, 13px 13px 13px rgba(0, 0, 0, .16);
+    border-radius: 28px;
+    padding: 26px;
+    display: grid;
+    grid-template-columns: repeat(4, 66px);
+}
+
+input {
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, .16);
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 32px;
+    color: rgb(26, 25, 25);
+    text-align: end;
+    margin: 40px, 0px, 30px, 0px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+button {
+    box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, .16);
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #81b6f3d2;
+}
+
+.equal {
+    width: 120px;
+    border-radius: 42px;
+    box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, .16);
+    background-color: #ecf0f3;
+}
+
+h1 {
+    margin-right: 45px;
+    box-shadow: 13px 13px 13px rgb(178, 209, 245), 13px 13px 13px rgba(193, 241, 103, 0.16), 13px 13px 13px rgba(87, 117, 31, 0.16);
+    width: 225px;
+    border-radius: 12px;
+    background-color: #ecf0f3;
+}
